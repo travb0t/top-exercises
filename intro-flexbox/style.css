@@ -1,0 +1,44 @@
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+html, body {
+    background-color: #67bee0;
+    margin: 10px;
+}
+
+.container > div:nth-child(1) {
+    background-color: green;
+}
+
+.container > div:nth-child(2) {
+    background-color: red;
+    display: flex;
+    flex: 0; 
+}
+
+.container > div:nth-child(3) {
+    background-color: green;
+}
+
+.container > div:nth-child(2):hover {
+    background-color: blue;
+}
+
+.container {
+    border: 5px solid #eed461;
+    display: flex;
+    gap: 8px;
+}
+
+.item, .item2 {
+    flex: 1;
+    margin: 5px;
+}
+
+.item2 {
+    border: 2px solid white;
+}

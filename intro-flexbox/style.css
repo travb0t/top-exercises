@@ -12,16 +12,18 @@ html, body {
 
 .container > div:nth-child(1) {
     background-color: green;
+    align-self: flex-start;
 }
 
 .container > div:nth-child(2) {
     background-color: red;
     display: flex;
-    flex: 0; 
+    flex: none;
 }
 
 .container > div:nth-child(3) {
     background-color: green;
+    align-self: flex-end;
 }
 
 .container > div:nth-child(2):hover {
@@ -32,10 +34,18 @@ html, body {
     border: 5px solid #eed461;
     display: flex;
     gap: 8px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.item {
+    width: 200px;
 }
 
 .item, .item2 {
-    flex: 1;
+    flex: auto;
     margin: 5px;
 }
 

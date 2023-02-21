@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Flexbox Practice 01</title>
+</head>
+
+<body>
+    <div class="widget">
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul  class="rightnav">
+                <li>
+                    <div class="dropdown">
+                        <a href="#">English</a>
+                        <div class="dropdown-content">
+                            <a href="#">Spanish</a>
+                            <a href="#">Vietnamese</a>
+                            <a href="#">French</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a class="textalt" href="#">Sign in</a></li>
+                <li><a class="textalt" href="#">Register</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="maintext">
+                <p class="hero">Sign In to Space Direct</p>
+                <p>If you don't have an account you can</p>
+                <p><a class="textalt" href="#">Register here!</a></p>
+            </div>
+            <div class="signin">
+                <input type="text" placeholder="Enter Email">
+                <input type="password" placeholder="Password">
+                <label for="pass"><a class="textsmall textalt" href="#">Forgot password?</a></label>
+                <button type="submit">Sign In</button>
+                <div class="break">
+                    <hr><p class="textsmall">Or continue with</p><hr>
+                </div>
+                <div class="icons">
+                    <a href="#"><img src="./images/googleicon.png" alt="Google icon"></a>
+                    <a href="#"><img src="./images/appleicon.png" alt="Apple icon"></a>
+                    <a href="#"><img src="./images/githubicon.png" alt="Github icon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

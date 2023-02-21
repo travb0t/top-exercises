@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*  {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: rgb(41, 46, 73);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.widget {
+    background-color: rgb(33, 34, 114);
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 1050px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+div .textalt {
+    color: aquamarine;
+}
+
+/* Dropdown menu test */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px 0px;
+}
+
+.dropdown-content a:hover {color: aquamarine;}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    margin: 150px 25px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.maintext {
+    margin-right: auto;
+}
+
+p {
+    margin: 0;
+    max-width: 150px;
+}
+
+.main .maintext .hero {
+    font-size: 42px;
+    max-width: 300px;
+    margin-bottom: 50px;
+}
+
+.main .maintext p {
+    margin-bottom: 8px;
+}
+
+.signin {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.textsmall {
+    font-size: 8px;
+}
+
+input,
+button {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.signin label {
+    align-self: flex-end;
+    margin-right: 15px;
+    margin-top: -10px;
+}
+
+button {
+    margin: 15px 0px;
+    background-color: rgb(91, 202, 165);
+    color: white;
+    border: 1px solid white;
+}
+
+.break {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    width: 30%;
+    height: 0px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4px;
+}
+
+.icons a,
+.icons img {
+    background-color: white;
+    border-radius: 36px;
+    width: 36px;
+    height: 36px;
+}

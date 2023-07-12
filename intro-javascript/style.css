@@ -5,3 +5,11 @@ body {
     align-items: center;
     gap: 20px;
 }
+
+button {
+    padding: 5px 10px;
+    /* background-color: rgb(14, 136, 218);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(224, 224, 224); */
+}
